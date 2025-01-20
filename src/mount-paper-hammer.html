@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock-paper</title>
+    <link rel="stylesheet" href="mount-paper-hammer.css">
+</head>
+<body>
+
+    <h1>Mount-Paper-Hammer</h1>
+    <div class="choices">
+    <button id="button1" onclick="playGame('mount')">&#128507;</button>
+    <button id="button2" onclick="playGame('paper')">&#128209;</button>
+    <button id="button3" onclick="playGame('hammer')">&#128296;</button>
+    </div>
+    <div id="playerDisplay">Player: </div>
+    <div id="computerDisplay">COMPUTER: </div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">player score:
+        <span id="playerScoreDisplay" > 0</span>
+    </div>
+    <div class="scoreDisplay">computer score:
+        <span id="computerScoreDisplay" > 0</span>
+    </div>
+   <script src="mount-paper-hammer.js"></script>
+</body>
+</html>
